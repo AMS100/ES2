@@ -25,7 +25,7 @@ public class Validador {
 		
 		public static void autenticaUser(String nome, String senha){
 			if (validaNome(nome) == true && validaSenha(senha)== true){
-				App.Form_Prints.msg("Senha Senha valida");		
+				App.Form_Prints.msg("Senha válida");		
 			}else{
 				App.Form_Prints.msg("Senha inválida");			
 			}
