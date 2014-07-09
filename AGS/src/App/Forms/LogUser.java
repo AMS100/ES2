@@ -18,6 +18,7 @@ import C.Validador;
 
 public class LogUser extends JFrame {
 
+	Validador validador = new Validador();
 	private JPanel contentPane;
 	private JTextField textNomeUser;
 	private JTextField textSenha;
@@ -57,7 +58,7 @@ public class LogUser extends JFrame {
 				setNomeUser((String) textNomeUser.getText());
 				setSenha((String) textSenha.getText());				
 			
-				Validador.autenticaUser(getNomeUser(),getSenha());
+				validador.autenticaUser(getNomeUser(),getSenha());
 				
 			}
 		});
