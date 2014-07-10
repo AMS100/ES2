@@ -14,11 +14,11 @@ import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JLabel;
 
-import C.Validador;
+import C.ValidadorUsuarios;
 
 public class LogUser extends JFrame {
 
-	Validador validador = new Validador();
+	ValidadorUsuarios validadorUsuarios = new ValidadorUsuarios();
 	private JPanel contentPane;
 	private JTextField textNomeUser;
 	private JTextField textSenha;
@@ -58,7 +58,7 @@ public class LogUser extends JFrame {
 				setNomeUser((String) textNomeUser.getText());
 				setSenha((String) textSenha.getText());				
 			
-				validador.autenticaUser(getNomeUser(),getSenha());
+				validadorUsuarios.autenticaUser(getNomeUser(),getSenha());
 				
 			}
 		});
