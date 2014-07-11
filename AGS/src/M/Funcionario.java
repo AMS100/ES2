@@ -2,7 +2,7 @@ package M;
 
 public class Funcionario {
 
-	static String nomeUser = "ANA";
+	static String nomeUser = "PEDRO";
 	static String tipoFunc = "ATENDENTE";
 	
 	public static void setNomeUser(String nomeUser) {

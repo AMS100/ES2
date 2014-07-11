@@ -43,7 +43,7 @@ public class LogUser extends JFrame {
 	
 	
 	/**
-	 * Create the frame.
+	 * Frame
 	 */
 	public LogUser() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
